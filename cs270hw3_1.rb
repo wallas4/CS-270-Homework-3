@@ -1,3 +1,14 @@
+=begin
+Name: Sabrina Wallace, CS 270 Homework #3
+Partner: None
+Description: A Library is a collection of Books. We can store Books in an Array inside of a Library class
+        (see starter code.) A Library can add Books, check out individual Books, and list which Books are
+        checked out
+
+Input: Title and authou for checked out book
+Output: title and author of checked out book
+=end
+
 ########################
 # Book class goes here,
 class Book
@@ -7,7 +18,7 @@ class Book
 	def initialize(title, author)
 	   @title = title
 	   @author = author
-	   @checked_out = checked_out
+	   @checked_out = false
 	end
 end
 
